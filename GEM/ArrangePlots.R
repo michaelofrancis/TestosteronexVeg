@@ -114,5 +114,5 @@ grob_to_pdf(
     page,
     file_name = paste(outdir, "Testosterone.ManhattanQQ.pdf", sep=""),
     add_page_numbers = F,
-    meta_data_title = "PUFA-GWAS supplementary fig PDF"
+    meta_data_title = "TxV supplementary fig PDF"
 )
