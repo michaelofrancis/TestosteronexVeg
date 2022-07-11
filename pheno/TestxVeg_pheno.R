@@ -1,8 +1,6 @@
-suppressMessages(library(plyr))
-suppressMessages(library(dplyr))
-suppressMessages(library(tidyverse))
-suppressMessages(library(ggpubr))
-suppressMessages(library(RNOmni))
+ssuppressMessages(silent <- lapply(
+    c("plyr", "dplyr", "tidyverse", "ggpubr", "RNOmni"), 
+    library, character.only=T))
 
 setwd("/work/kylab/mike/TestxVeg/pheno")
 
